@@ -83,9 +83,24 @@
             display: block;
             margin: 0 auto;
         }
-        .game-row {
+        .game-grid {
             display: flex;
+            flex-wrap: wrap;
             gap: 20px;
+            justify-content: center;
+        }
+        .game-card {
+            width: 220px;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+        }
+        .game-card img {
+            width: 100%;
+            display: block;
+        }
+        .game-card h3 {
+            margin-top: 10px;
         }
 
     .publisher-footer {
@@ -130,38 +145,38 @@
 
 <h2>THE HORRYEFIEING UNIVERSE</h2>
 
-<div class="grid">
-<a class="card" href="rye_adventures.html">
+<div class="game-grid">
+<a class="game-card" href="rye_adventures.html">
 <img src="assets/ryeadventurestiny.png">
 <h3>Rye Adventures</h3>
 </a>
 
-<a class="card" href="rye_adventures_II.html">
+<a class="game-card" href="rye_adventures_II.html">
 <img src="assets/ryeadventures2tiny.png">
 <h3>Rye Adventures II</h3>
 </a>
 
-<a class="card" href="high-rise.html">
+<a class="game-card" href="high-rise.html">
 <img src="assets/highrisetiny.png">
 <h3>High-Rise</h3>
 </a>
 
-<a class="card" href="the_circle_mansion.html">
+<a class="game-card" href="the_circle_mansion.html">
 <img src="assets/circlemansiontiny.png">
 <h3>The Circle Mansion</h3>
 </a>
 
-<a class="card" href="elara_the_noctophage_slayer.html">
+<a class="game-card" href="elara_the_noctophage_slayer.html">
 <img src="assets/elaralogotiny.png">
 <h3>Elara The Noctophage Slayer</h3>
 </a>
 
-<a class="card" href="resurrection_of_the_dormant.html">
+<a class="game-card" href="resurrection_of_the_dormant.html">
 <img src="assets/rotdtiny.png">
 <h3>Resurrection Of The Dormant</h3>
 </a>
 
-<a class="card" href="living_nightmare.html">
+<a class="game-card" href="living_nightmare.html">
 <img src="assets/livingnightmaretiny.png">
 <h3>Living Nightmare</h3>
 </a>
