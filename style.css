@@ -1,4 +1,11 @@
 @font-face {
+    font-family: "GoudyMediaeval";
+    src: url("GoudyMediaeval-Regular.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
     font-family: "EnglishTowne";
     src: url("EnglishTowne.ttf")
         format("truetype");
@@ -15,7 +22,7 @@
 
 body {
 margin: 0;
-font-family: "EnglishTowne", Arial, sans-serif;
+font-family: "GoudyMediaeval", Arial, sans-serif;
 
 background-image: url("assets/ryethemebackground.png");
 background-size: 1400px;
@@ -144,6 +151,7 @@ object-fit: cover;
  }
 
  p {
+ font-family: "GoudyMediaeval", Arial, sans-serif;
  font-size: 24px !important;
  color: #F2EDC4;
  }
