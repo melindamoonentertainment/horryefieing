@@ -1,0 +1,77 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #0b0b0b;
+color: #e6e6e6;
+}
+
+header {
+background: black;
+padding: 20px;
+text-align: center;
+border-bottom: 2px solid #222;
+}
+
+header h1 {
+margin: 0;
+letter-spacing: 4px;
+}
+
+nav {
+margin-top: 10px;
+}
+
+nav a {
+color: #aaa;
+margin: 0 10px;
+text-decoration: none;
+}
+
+nav a:hover {
+color: white;
+}
+
+.hero {
+text-align: center;
+padding: 40px 20px;
+}
+
+.hero img {
+max-width: 300px;
+}
+
+.tagline {
+font-style: italic;
+color: #888;
+}
+
+section {
+padding: 40px 20px;
+max-width: 900px;
+margin: auto;
+}
+
+h2 {
+border-left: 4px solid #444;
+padding-left: 10px;
+}
+
+.game {
+margin-bottom: 25px;
+padding: 15px;
+background: #151515;
+border-radius: 6px;
+}
+
+.about, .trailers {
+background: #111;
+border-radius: 6px;
+}
+
+footer {
+text-align: center;
+padding: 30px;
+background: black;
+font-size: 14px;
+color: #777;
+}
