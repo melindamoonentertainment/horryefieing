@@ -76,11 +76,11 @@ font-size: 14px;
 color: #777;
 }
 
-.grid {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+.grid {display: grid;
+grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 gap: 20px;
 padding: 20px;
+align-items: stretch;
 }
 
 .card {
