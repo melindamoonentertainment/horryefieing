@@ -132,6 +132,50 @@
     width: 100%;
     height: auto;
 }
+
+.hero-block {
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #F2EDC4;
+    margin-bottom: 15px;
+}
+
+.store-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.store-btn {
+    display: inline-block;
+    padding: 12px 18px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.store-btn.steam {
+    background: #1b2838;
+}
+
+.store-btn.steam:hover {
+    background: #2a475e;
+}
+
+.store-btn.itch {
+    background: #fa5c5c;
+}
+
+.store-btn.itch:hover {
+    background: #ff7b7b;
+}
+    
     </style>
 </head>
 
@@ -146,6 +190,26 @@
 <section class="center-image">
     <img src="assets/highrisev1-4_postersmall.jpg"
         alt="High-Rise V1.4 Poster">
+</section>
+
+<section class="hero-block">
+
+    <p class="hero-text">
+        Horryefieing: High-Rise is available for Windows and is available for £7.99 at itch.io and Steam.
+    </p>
+
+    <div class="store-buttons">
+
+        <a class="store-btn steam"
+            href="https://store.steampowered.com/app/3324120/Horryefieing_HighRise/" target="_blank">
+            Buy on Steam
+        </a>
+
+        <a class="store-btn itch"
+            href="https://melindamoonentertainment.itch.io/horryefieing-high-rise" target="_blank">
+            Buy on itch.io
+        </a>
+    </div>
 </section>
     
 <section>
