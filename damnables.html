@@ -6,171 +6,146 @@
 <style>
 
 @font-face {
-    font-family: "EnglishTowne";
-    src: url("EnglishTowne.ttf") format("truetype");
+font-family:"EnglishTowne";
+src:url("EnglishTowne.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: "GoudyMediaeval";
-    src: url("GoudyMediaeval-Regular.ttf") format("truetype");
+font-family:"GoudyMediaeval";
+src:url("GoudyMediaeval-Regular.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: "Seagram";
-    src: url("Seagram-tfb.ttf") format("truetype");
+font-family:"Seagram";
+src:url("Seagram-tfb.ttf") format("truetype");
 }
-
 
 body {
-    margin:0;
-    font-family:"GoudyMediaeval", Arial, sans-serif;
-    background-image:url("assets/medievalbackground.jpg");
-    background-size:1400px;
-    background-position:center top;
-    background-repeat:repeat-y;
-    background-color:black;
-    color:white;
+margin:0;
+font-family:"GoudyMediaeval", Arial, sans-serif;
+background-image:url("assets/medievalbackground.jpg");
+background-size:1400px;
+background-position:center top;
+background-repeat:repeat-y;
+background-color:black;
+color:white;
 }
-
 
 .container {
-    max-width:1000px;
-    margin:auto;
-    padding:20px;
+max-width:1000px;
+margin:auto;
+padding:20px;
 }
-
 
 header {
-    text-align:center;
-    padding:30px;
-    border-bottom:1px solid #222;
+text-align:center;
+padding:30px;
+border-bottom:1px solid #222;
 }
-
 
 .site-logo {
-    width:100%;
-    max-width:1200px;
-    height:auto;
+width:100%;
+max-width:1200px;
+height:auto;
 }
-
 
 h1 {
-    font-family:"Seagram", Arial, sans-serif;
-    color:#c40000;
-    font-size:70px;
-    text-align:center;
-    margin:30px 0 10px;
+font-family:"Seagram";
+font-size:70px;
+color:#c40000;
+text-align:center;
+margin:30px 0 10px;
 }
-
 
 h2 {
-    font-family:"EnglishTowne", Arial, sans-serif;
-    color:#e32c14;
-    font-size:36px;
-    border-bottom:1px solid #7d6542;
-    padding-bottom:10px;
+font-family:"EnglishTowne";
+font-size:36px;
+color:#e32c14;
+border-bottom:1px solid #7d6542;
+padding-bottom:10px;
 }
-
 
 h3 {
-    font-family:"EnglishTowne", Arial, sans-serif;
-    color:#e32c14;
-    font-size:28px;
+font-family:"EnglishTowne";
+font-size:28px;
+color:#e32c14;
 }
-
 
 p {
-    font-size:18px;
-    line-height:1.6;
-    color:#F2EDC4;
+font-size:18px;
+line-height:1.6;
+color:#F2EDC4;
 }
-
 
 nav {
-    margin-top:15px;
+margin-top:15px;
 }
-
 
 nav a {
-    color:#aaa;
-    margin:0 10px;
-    text-decoration:none;
+color:#aaa;
+margin:0 10px;
+text-decoration:none;
 }
-
 
 nav a:hover {
-    color:white;
+color:white;
 }
-
 
 .archive-box {
-    background:rgba(0,0,0,0.65);
-    border:1px solid #7d6542;
-    padding:25px;
-    margin:35px 0;
-    box-shadow:
-    inset 0 0 20px rgba(255,255,255,0.03),
-    0 0 20px rgba(0,0,0,0.8);
+background:rgba(0,0,0,0.65);
+border:1px solid #7d6542;
+padding:25px;
+margin:35px 0;
+box-shadow:
+inset 0 0 20px rgba(255,255,255,0.03),
+0 0 20px rgba(0,0,0,0.8);
 }
-
 
 .archive-image {
-    width:280px;
-    border:1px solid #9b7845;
-    padding:5px;
-    background:#111;
+width:280px;
+border:1px solid #9b7845;
+padding:5px;
+background:#111;
 }
-
 
 .image-left {
-    float:left;
-    margin:0 25px 15px 0;
+float:left;
+margin:0 25px 15px 0;
 }
-
 
 .image-right {
-    float:right;
-    margin:0 0 15px 25px;
+float:right;
+margin:0 0 15px 25px;
 }
-
 
 .clear {
-    clear:both;
+clear:both;
 }
 
-
-.quote-box {
-    text-align:center;
-    border-top:1px solid #7d6542;
-    border-bottom:1px solid #7d6542;
-    padding:25px;
-    margin:30px 0;
-    font-style:italic;
-    color:#d9c78b;
-    font-size:20px;
+.file-box {
+border:1px solid #7d6542;
+background:rgba(0,0,0,0.5);
+padding:20px;
+margin:20px 0;
 }
 
-
-.archive-label {
-    color:#c40000;
-    font-family:"EnglishTowne";
-    font-size:24px;
+.file-title {
+font-family:"EnglishTowne";
+color:#e32c14;
+font-size:26px;
 }
-
 
 .publisher-footer {
-    text-align:center;
-    margin:40px 0 20px;
+text-align:center;
+margin:40px 0 20px;
 }
-
 
 .footer-logo {
-    width:80px;
+width:80px;
+height:auto;
 }
 
-
 </style>
-
 </head>
 
 
@@ -198,22 +173,44 @@ nav a:hover {
 
 
 
-<div class="quote-box">
+<section class="archive-box">
 
-"Entities born beyond the boundaries of our reality. 
-Neither beast nor spirit, but something far more dangerous."
+<h2>Circle Archive Classification</h2>
 
-<br><br>
 
-— The Circle Archive Records
+<div class="file-box">
+
+<p>
+<span class="file-title">ENTITY CLASS:</span><br>
+Damnable
+</p>
+
+<p>
+<span class="file-title">CAUSE:</span><br>
+Mazikin Possession
+</p>
+
+<p>
+<span class="file-title">HOST TYPE:</span><br>
+Biological / Non-Biological (Rare Cases)
+</p>
+
+<p>
+<span class="file-title">THREAT LEVEL:</span><br>
+Extreme
+</p>
 
 </div>
+
+
+</section>
+
 
 
 
 <section class="archive-box">
 
-<h2>Classification Archive</h2>
+<h2>What Is A Damnable?</h2>
 
 
 <img src="assets/damnable_main.jpg" class="archive-image image-right">
@@ -221,29 +218,28 @@ Neither beast nor spirit, but something far more dangerous."
 
 <p>
 
-<span class="archive-label">Entity Classification:</span>
-Damnable
+A Damnable is a living, dead, or in rare circumstances non-biological host that has been possessed by a Shedim spirit known as a Mazikin.
 
 </p>
 
 
 <p>
 
-Damnables are a class of hostile extra-dimensional entities originating from the Shadow Realm. Unlike lesser manifestations or temporary demonic influences, Damnables possess independent consciousness, physical form and advanced intelligence.
+Unlike ordinary possession, where a spirit simply influences or controls a host, Mazikin possession causes a complete transformation of the host from within.
 
 </p>
 
 
 <p>
 
-These entities represent some of the most dangerous beings encountered by humanity, possessing unique abilities, enhanced physical capabilities and a natural connection to the dark forces that exist beyond the mortal plane.
+Once inside the host, the Mazikin begins rewriting the structure of the being it has possessed. In biological creatures, particularly humans, this process alters the host's DNA and gradually replaces the original form with something new.
 
 </p>
 
 
 <p>
 
-Although Damnables share common characteristics, each species possesses its own individual traits, abilities and methods of interaction with the physical world.
+A Damnable is not a zombie or a mindless creature. The entity controlling the body is an intelligent and malicious supernatural being with its own thoughts, desires and intentions.
 
 </p>
 
@@ -257,69 +253,122 @@ Although Damnables share common characteristics, each species possesses its own 
 
 <section class="archive-box">
 
-<h2>Origins</h2>
+<h2>The Damnable Process</h2>
 
 
-<img src="assets/damnable_origin.jpg" class="archive-image image-left">
+<img src="assets/damnable_process.jpg" class="archive-image image-left">
 
 
 <p>
 
-The true origin of the Damnables remains one of the greatest mysteries studied by The Circle. Ancient records suggest that these beings originate from the Shadow Realm, a dimension existing beyond normal space and time.
+The creation of a Damnable begins when a Mazikin spirit successfully enters a suitable host.
 
 </p>
 
 
 <p>
 
-Unlike traditional demons described in human mythology, Damnables are not simply spirits seeking possession. They are fully formed entities capable of existing independently within their own realm before entering the physical world.
+While almost any vessel can potentially become affected, living biological hosts provide the most effective connection between the physical world and the possessing spirit.
 
 </p>
 
 
 <p>
 
-Their connection to the Shadow Realm allows them to survive conditions impossible for ordinary lifeforms and grants them abilities beyond human understanding.
+As the possession continues, the Mazikin gradually rewrites the host from within. The original form becomes corrupted as the spirit's influence spreads throughout the body.
+
+</p>
+
+
+<p>
+
+The longer the possession remains active, the less likely the host is to be recovered. Eventually, the transformation reaches a point where the original identity of the host has been consumed by the changes taking place within them.
 
 </p>
 
 
 <div class="clear"></div>
 
-  </section>
+</section>
 
 <section class="archive-box">
 
-<h2>Creation Of A Damnable</h2>
+<h2>Stages Of Transformation</h2>
 
 
-<img src="assets/damnable_creation.jpg" class="archive-image image-right">
+<img src="assets/damnable_stages.jpg" class="archive-image image-right">
 
 
 <p>
 
-The process by which a Damnable comes into existence is poorly understood, even among the most experienced members of The Circle. Unlike creatures that reproduce through natural means, Damnables are believed to be created through a combination of Shadow Realm energies and unknown supernatural processes.
+The transformation from possessed host to full Damnable does not happen instantly. The process occurs gradually as the Mazikin spirit continues to alter and consume the original form of its host.
+
+</p>
+
+
+<h3>Stage One - Possession</h3>
+
+
+<p>
+
+During the earliest stage, the Mazikin has successfully entered the host but the original being may still retain some control.
 
 </p>
 
 
 <p>
 
-Ancient records suggest that the formation of a Damnable requires a significant concentration of dark energy, allowing a new consciousness to develop and manifest into physical form.
+At this point, separation between the host and the possessing spirit may still be possible. However, the longer the Mazikin remains inside the host, the stronger its influence becomes.
+
+</p>
+
+
+
+<h3>Stage Two - Mutation</h3>
+
+
+<p>
+
+As the Mazikin continues rewriting the host, physical and biological changes begin to occur.
 
 </p>
 
 
 <p>
 
-While the exact method varies between species, every Damnable appears to share a connection to the same source of power that flows through the Shadow Realm.
+The host enters the mutated Damnable stage, where the original structure of the body has been significantly altered by the possessing spirit.
 
 </p>
 
 
 <p>
 
-Because of this, attempts to recreate or control the creation process have historically resulted in catastrophic consequences.
+At this point, recovery becomes extremely unlikely, as the host's original biological identity has become intertwined with the Mazikin's corruption.
+
+</p>
+
+
+
+<h3>Stage Three - Complete Manifestation</h3>
+
+
+<p>
+
+The final stage occurs when the Mazikin has completely transformed the host into a physical manifestation of the Shedim spirit.
+
+</p>
+
+
+<p>
+
+The host is no longer simply being controlled. The body itself has become a vessel created by the possessing entity.
+
+</p>
+
+
+<p>
+
+The result is a fully realised Damnable: a physical form belonging to the Mazikin rather than the person or object that was originally possessed.
 
 </p>
 
@@ -331,38 +380,46 @@ Because of this, attempts to recreate or control the creation process have histo
 
 
 
+
 <section class="archive-box">
 
-<h2>Physical Characteristics</h2>
+<h2>The Lost Host</h2>
 
 
-<img src="assets/damnable_physical.jpg" class="archive-image image-left">
+<img src="assets/damnable_host.jpg" class="archive-image image-left">
 
 
 <p>
 
-Damnables display a wide range of physical forms, reflecting the unique nature of each species. While some may resemble distorted versions of living creatures, others possess completely alien appearances unlike anything found within the natural world.
+One of the most dangerous aspects of a Damnable is the relationship between the possessing spirit and the identity of its host.
 
 </p>
 
 
 <p>
 
-Despite their differences, most Damnables share several common traits. Their bodies are adapted for survival in extreme environments, allowing them to withstand injuries that would be fatal to ordinary organisms.
+A Damnable is not the person it appears to be. The original individual may have once been a friend, family member or someone known to the victim, but the entity controlling the body is the Mazikin.
 
 </p>
 
 
 <p>
 
-Many possess enhanced strength, unnatural durability and sensory abilities far beyond human capability. Some species also demonstrate the ability to alter their appearance or adapt their physical form when entering the mortal realm.
+Mazikin spirits are capable of using the memories, appearance and identity of their hosts as tools of manipulation.
 
 </p>
 
 
 <p>
 
-The true anatomy of a Damnable remains largely unknown, as recovered remains often decay rapidly or return to Shadow Realm matter after death.
+They may imitate the person they have possessed in order to create confusion, fear or emotional distress. This makes encounters with Damnables especially dangerous, as victims may hesitate to defend themselves against something wearing a familiar face.
+
+</p>
+
+
+<p>
+
+The appearance of the host is only a disguise. Beneath it is a malicious intelligence using the remains of another being as a vessel.
 
 </p>
 
@@ -370,6 +427,7 @@ The true anatomy of a Damnable remains largely unknown, as recovered remains oft
 <div class="clear"></div>
 
 </section>
+
 
 
 
@@ -384,28 +442,28 @@ The true anatomy of a Damnable remains largely unknown, as recovered remains oft
 
 <p>
 
-Contrary to early assumptions, Damnables are not mindless creatures driven purely by instinct. Most demonstrate advanced intelligence, strategic thinking and an understanding of their surroundings.
+Damnables are highly intelligent entities and should never be mistaken for mindless undead creatures.
 
 </p>
 
 
 <p>
 
-Their behaviour varies greatly between species. Some act as solitary predators, while others display complex social structures and forms of communication.
+The Mazikin spirit within the host retains its own awareness, personality and malicious intent. Rather than simply hunting for survival, many Damnables appear to take pleasure in manipulating and tormenting their victims.
 
 </p>
 
 
 <p>
 
-Damnables are capable of learning from encounters with humans and adapting their methods of attack. This intelligence makes them significantly more dangerous than lesser supernatural entities.
+Their behaviour is often cruel and unpredictable, similar to a spiteful child playing with something it has power over. They may prolong encounters, exploit emotional weaknesses and deliberately create fear before attacking.
 
 </p>
 
 
 <p>
 
-Researchers from The Circle have recorded instances of Damnables manipulating human fears, exploiting weaknesses and using deception rather than relying solely on physical force.
+This sadistic nature comes from the possessing spirit itself. The host body is merely the instrument through which the Mazikin expresses its intentions.
 
 </p>
 
@@ -416,80 +474,43 @@ Researchers from The Circle have recorded instances of Damnables manipulating hu
 
 <section class="archive-box">
 
-<h2>Abilities And Powers</h2>
+<h2>Physical Resilience</h2>
 
 
-<img src="assets/damnable_abilities.jpg" class="archive-image image-left">
+<img src="assets/damnable_resilience.jpg" class="archive-image image-left">
 
 
 <p>
 
-Damnables possess abilities that separate them from ordinary lifeforms. These powers vary between species, but all originate from their connection to the Shadow Realm and the dark energies that exist within it.
+A Damnable host no longer follows the normal limitations of biological life. Once the Mazikin has taken sufficient control, the body becomes sustained by supernatural forces rather than ordinary anatomy.
 
 </p>
 
 
 <p>
 
-Common abilities observed among Damnables include enhanced physical strength, accelerated healing, resistance to conventional weapons and the ability to survive environments impossible for human life.
+Because of this, Damnables display extreme resistance to physical damage. Injuries that would be fatal to normal organisms often fail to stop them.
 
 </p>
 
 
 <p>
 
-Some Damnables have demonstrated additional supernatural abilities, including manipulation of energy, control over elements, unnatural movement, psychic abilities and influence over the minds of weaker beings.
+A Damnable may continue functioning after suffering catastrophic damage, including the loss of multiple limbs or severe destruction of the body.
 
 </p>
 
 
 <p>
 
-Because every species develops differently, researchers consider each encounter with a Damnable to be unpredictable and potentially unique.
-
-</p>
-
-
-<div class="clear"></div>
-
-</section>
-
-
-
-
-
-<section class="archive-box">
-
-<h2>Weaknesses And Countermeasures</h2>
-
-
-<img src="assets/damnable_weakness.jpg" class="archive-image image-right">
-
-
-<p>
-
-Despite their considerable power, Damnables are not invincible. Historical records maintained by The Circle show that every species possesses weaknesses that can be exploited.
+In advanced cases, a Damnable does not require a head or conventional organs to remain active. The Mazikin spirit is the true source of the entity's continued existence, not the original biological systems of the host.
 
 </p>
 
 
 <p>
 
-These weaknesses differ depending on the individual entity, but commonly involve specific materials, supernatural forces, environmental conditions or methods of disrupting their connection to the Shadow Realm.
-
-</p>
-
-
-<p>
-
-Direct confrontation is strongly discouraged. The Circle recommends careful observation, preparation and the use of specialised equipment when dealing with any confirmed Damnable presence.
-
-</p>
-
-
-<p>
-
-Improper attempts at containment have frequently resulted in severe casualties.
+Even separated portions of a Damnable's body may continue to display unnatural movement or activity, demonstrating that these entities operate by supernatural rather than biological rules.
 
 </p>
 
@@ -504,54 +525,48 @@ Improper attempts at containment have frequently resulted in severe casualties.
 
 <section class="archive-box">
 
-<h2>Threat Assessment File</h2>
+<h2>Supernatural Abilities</h2>
 
 
-<div style="
-border:1px solid #7d6542;
-padding:20px;
-background:rgba(0,0,0,0.5);
-">
+<img src="assets/damnable_abilities.jpg" class="archive-image image-right">
 
 
 <p>
-<b style="color:#c40000;">ENTITY CLASS:</b><br>
-Damnable
+
+The abilities of a Damnable are created through the connection between the physical host and the possessing Mazikin spirit.
+
 </p>
 
 
 <p>
-<b style="color:#c40000;">ORIGIN:</b><br>
-Shadow Realm
+
+Although abilities vary depending on the host and the individual spirit involved, Damnables commonly display enhanced physical strength, unnatural endurance and abilities beyond human capability.
+
 </p>
 
 
 <p>
-<b style="color:#c40000;">THREAT LEVEL:</b><br>
-Extreme
+
+Many Damnables are capable of levitation, allowing them to move without being restricted by normal physical limitations.
+
 </p>
 
 
 <p>
-<b style="color:#c40000;">INTELLIGENCE:</b><br>
-High
+
+They are also capable of speech and intelligent communication, allowing them to deceive, threaten and manipulate those around them.
+
 </p>
 
 
 <p>
-<b style="color:#c40000;">CONTAINMENT STATUS:</b><br>
-Unstable / Species Dependent
+
+Their greatest ability, however, is their intelligence. A Damnable understands fear, emotion and weakness, making them far more dangerous than a simple physical threat.
+
 </p>
 
 
-<p>
-<b style="color:#c40000;">RECOMMENDED RESPONSE:</b><br>
-Avoid direct engagement. Seek Circle assistance.
-</p>
-
-
-</div>
-
+<div class="clear"></div>
 
 </section>
 
@@ -561,29 +576,48 @@ Avoid direct engagement. Seek Circle assistance.
 
 <section class="archive-box">
 
-<h2>Known Encounters</h2>
+<h2>Weaknesses And Recovery</h2>
+
+
+<img src="assets/damnable_weakness.jpg" class="archive-image image-left">
 
 
 <p>
 
-Throughout history, sightings of Damnables have been recorded across various locations and cultures. Many early accounts were dismissed as mythology, superstition or folklore.
+The greatest weakness of a Damnable is the transformation process itself.
 
 </p>
 
 
 <p>
 
-Modern investigations conducted by The Circle have confirmed that many of these legends describe genuine encounters with Shadow Realm entities.
+During the early stages of possession, there remains a possibility that the host may be separated from the Mazikin spirit before permanent changes occur.
 
 </p>
 
 
 <p>
 
-Every confirmed encounter provides further information about Damnables, allowing researchers to better understand their abilities, behaviour and methods of interaction with the mortal world.
+However, once the host reaches advanced mutation, the original form has been altered so severely that recovery becomes increasingly unlikely.
 
 </p>
 
+
+<p>
+
+A fully manifested Damnable represents the final stage of transformation, where the Mazikin has become permanently connected to the physical form.
+
+</p>
+
+
+<p>
+
+Methods of defeating a Damnable vary depending on the possessing spirit and the nature of the host. Extreme caution is required, as physical destruction alone may not be enough to stop the entity.
+
+</p>
+
+
+<div class="clear"></div>
 
 </section>
 
@@ -596,34 +630,54 @@ Every confirmed encounter provides further information about Damnables, allowing
 <h2>Related Archives</h2>
 
 
-<div class="game-grid">
+<p>
+
+Further information regarding the entities connected to Damnable creation can be found within the following archives:
+
+</p>
 
 
-<a class="game-card" href="shadow_realm.html">
-<h3>The Shadow Realm</h3>
+<div class="file-box">
+
+<p>
+<a href="mazikin.html" style="color:#e32c14;">
+Mazikin Archive
 </a>
+<br>
+Information regarding the Shedim spirits responsible for Damnable transformation.
+</p>
 
 
-<a class="game-card" href="toldos.html">
-<h3>Toldos</h3>
+<p>
+<a href="shedim.html" style="color:#e32c14;">
+Shedim Archive
 </a>
+<br>
+Records concerning the greater entities from which Mazikin originate.
+</p>
 
 
-<a class="game-card" href="the_circle.html">
-<h3>The Circle</h3>
+<p>
+<a href="shadow_realm.html" style="color:#e32c14;">
+Shadow Realm Archive
 </a>
+<br>
+Information regarding the dimension connected to these entities.
+</p>
 
 
-<a class="game-card" href="rogues_gallery_home.html">
-<h3>Rogues Gallery</h3>
+<p>
+<a href="rogues_gallery_home.html" style="color:#e32c14;">
+Rogues Gallery
 </a>
-
+<br>
+Known entities and encounters within the Horryefieing Universe.
+</p>
 
 </div>
 
 
 </section>
-
 
 
 
