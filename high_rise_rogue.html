@@ -12,13 +12,27 @@
     src: url('runicmtcondensed.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Cochin Bold Italic';
+    src: url('cochin-bold-italic_ufonts.com.ttf') format('truetype');
+}
+
 .rog-headline {
-    font-family: 'Runic MT Condensed', serif;
-    font-size: 32px;
-    line-height: 1;
     width: 335px;
     height: 75px;
     text-align: center;
+    line-height: 1;
+}
+
+.rog-headline-main {
+    font-family: 'Runic MT Condensed', serif;
+    font-size: 32px;
+}
+
+.rog-headline-sub {
+    font-family: 'Cochin Bold Italic', serif;
+    font-size: 18px;
+    margin-top: 4px;
 }
 </style>
 
@@ -96,7 +110,10 @@
 <!-- MAIN COLUMN -->
 <td align="LEFT" valign="TOP" width="335">
 
-<div class="rog-headline">Getting to Know the Nightmare Creatures</div>
+<div class="rog-headline">
+    <div class="rog-headline-main">Getting to Know the Nightmare Creatures</div>
+    <div class="rog-headline-sub">The Crier's Guide to London's Monster Threat</div>
+</div>
 
 <font size="+2">C</font>ONTINUING ITS INVESTIGATION into the disturbing events surrounding Rainford Court, the Town Crier has assembled this guide to the creatures reportedly encountered within the building. Their origins remain uncertain, and many of the stories circulating among residents are difficult to verify. Nevertheless, our reporters have gathered accounts, photographs and eyewitness testimony concerning several of the more unusual figures said to inhabit the premises. What follows is our attempt to separate fact from rumour.:<br>
 
@@ -172,4 +189,4 @@ Rogue's Gallery |
 </table>
 
 </body>
-      </html>
+</html>
