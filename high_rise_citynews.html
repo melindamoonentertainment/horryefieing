@@ -3,11 +3,31 @@
 <head>
 <meta charset="UTF-8">
 <title>Horryefieing: High-Rise - City News</title>
-
 <meta name="description" content="Horryefieing: High-Rise - City News.">
 <meta name="keywords" content="Horryefieing, High-Rise, Rainford Court, monsters, demons, London, videogame">
 
 <style>
+@font-face {
+    font-family: 'Runic MT Condensed';
+    src: url('runicmtcondensed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cochin';
+    src: url('Cochin-Bold-Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mariage';
+    src: url('Mariage LT W04 Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @font-face {
     font-family: 'Fishwrapper';
     src: url('Fishwrapper.ttf') format('truetype');
@@ -15,7 +35,16 @@
     font-style: normal;
 }
 
-/* CITY NEWS MASTHEAD */
+@font-face {
+    font-family: 'Times Custom';
+    src: url('times.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* HORRYEFIEING: HIGH-RISE MASTHEAD */
+
 .mast-nightmare {
     width: 517px;
     height: 24px;
@@ -26,18 +55,85 @@
     text-align: center;
 }
 
+
+/* CITY NEWS MASTHEAD */
+
 .mast-city {
     width: 517px;
     height: 98px;
     text-align: center;
+    position: relative;
 }
 
+.city-line-top {
+    width: 517px;
+    height: 1px;
+    background: #000000;
+}
+
+.city-title {
+    font-family: 'Mariage', serif;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+}
+
+.city-line-bottom {
+    width: 517px;
+    height: 2px;
+    background: #000000;
+    margin-top: 6px;
+}
+
+
+/* MAIN STORY HEADLINE */
+
+.city-headline {
+    width: 322px;
+    text-align: center;
+    line-height: 1;
+    margin: 0 0 8px 0;
+    padding: 0;
+}
+
+.city-headline-main {
+    font-family: 'Runic MT Condensed', serif;
+    font-size: 30px;
+}
+
+.city-headline-sub {
+    font-family: 'Cochin', serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 4px;
+}
+
+
+/* SIDE STORY HEADLINE */
+
+.city-sideheadline {
+    width: 166px;
+    min-height: 44px;
+    font-family: 'Runic MT Condensed', serif;
+    font-size: 25px;
+    line-height: 1.05;
+    text-align: center;
+}
+
+
 /* ARTICLE TEXT */
+
 .article-text {
-    font-family: 'Times New Roman', serif;
+    font-family: 'Times Custom', 'Times New Roman', serif;
     font-size: 16px;
     color: #000000;
     line-height: normal;
+}
+
+.article-text p {
+    margin: 0 0 12px 0;
+    padding: 0;
 }
 
 </style>
@@ -62,6 +158,7 @@
 
 <!-- CONTENT -->
 
+
 <!-- MASTHEAD -->
 <table cellpadding="0" cellspacing="0" border="0" width="517">
 <tr>
@@ -74,12 +171,11 @@ HORRYEFIEING: HIGH-RISE
 
 <div class="mast-city">
 
-    <!-- REPLACE THIS WITH YOUR CITY NEWS MASTHEAD -->
-    <img src="assets/mast_citynews.png"
-         width="517"
-         height="98"
-         alt="City News"
-         border="0">
+    <div class="city-line-top"></div>
+
+    <div class="city-title">City News</div>
+
+    <div class="city-line-bottom"></div>
 
 </div>
 
@@ -105,12 +201,20 @@ HORRYEFIEING: HIGH-RISE
      alt="Main Story"
      border="0"><br>
 
+
 <!-- MAIN STORY HEADLINE -->
-<img src="assets/city_headline.png"
-     width="322"
-     height="77"
-     alt="Main Story Headline"
-     border="0"><br>
+<div class="city-headline">
+
+    <div class="city-headline-main">
+        Dozens Brutally Killed
+    </div>
+
+    <div class="city-headline-sub">
+        Creatures Blamed for Rainford Court Massacre
+    </div>
+
+</div>
+
 
 <div class="article-text">
 
@@ -145,22 +249,20 @@ As more witnesses come forward, investigators have begun examining the possibili
 
 <a name="side-story">
 
-<!-- SIDE STORY HEADLINE -->
-<img src="assets/city_sideheadline.png"
-     width="166"
-     height="135"
-     alt="Related Investigation"
-     border="0">
+<div class="city-sideheadline">
+    Rainford Court Investigation
+</div>
 
-</a><br>
+</a>
+
+<br>
 
 <div class="article-text">
 
 A search for information surrounding the Rainford Court incidents has yielded little certainty. Residents have reported strange figures moving through the building, while others claim that something far more organised is taking place.
 
-<p>
+<br><br>
 
-<!-- SIDE IMAGE -->
 <img src="assets/city_sideimage.png"
      width="106"
      height="137"
@@ -170,13 +272,9 @@ A search for information surrounding the Rainford Court incidents has yielded li
 
 Witness accounts suggest that the disturbances may be connected to the mysterious forces now believed to be operating within the tower.
 
-</p>
-
-<p>
+<br><br>
 
 The investigation continues, although those attempting to uncover the truth have been warned to stay away from Rainford Court.
-
-</p>
 
 </div>
 
@@ -207,15 +305,10 @@ The investigation continues, although those attempting to uncover the truth have
 <font size="1">
 
 <a href="index.html">Home</a> |
-
 <a href="frontpage2.html">Front Page</a> |
-
 <a href="rogue.html">Rogue's Gallery</a> |
-
 <a href="profile.html">Profile</a> |
-
 <a href="recreation.html">Recreation</a> |
-
 City News
 
 </font>
@@ -238,4 +331,4 @@ City News
 </table>
 
 </body>
-  </html>
+</html>
